@@ -7,7 +7,7 @@ let context = canvas.getContext("2d");
 let randomColor = Math.floor(Math.random()*16777215).toString(16);
 context.fillStyle=`#${randomColor}`;
 context.beginPath();
-let arc = context.arc(e.clientX,e.clientY,50,0,2*Math.PI,false);
+let arc = context.arc(e.clientX,e.clientY,30,0,2*Math.PI,false);
 context.fill();
 context.strokeStyle = "red";
 context.stroke();
